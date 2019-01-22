@@ -1,0 +1,313 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway, sans-serif;
+    background-color: black;
+}
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+.logo {
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid yellow;
+}
+
+.graflogo {
+    padding: 25px; 
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#navmenu {
+    margin-top: 10px; 
+    margin-right: 0px; 
+}
+.nav {
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    text-align: end;
+    overflow: hidden;
+}
+
+.nav a  {
+    color: rgb(255, 209, 26); 
+    text-align: right;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.maininfo {
+    text-align: center;
+    font-display: column;
+    padding-bottom: 10px;   
+}
+
+.maininfo p {
+    text-align: center;
+    color: rgb(255, 153, 0);
+    margin: 5px
+}
+
+.gif {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    margin: 0px;
+}
+.menu {
+    margin: 30px 70px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 16px
+}
+
+.links li {
+    padding: 0px 40px;
+    color: yellow;
+}
+
+.buttonup {
+    background-color: rgb(0, 255, 0);
+    box-sizing: border-box;
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    left: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 55px;
+    color: white;
+    top: 93%;
+    left: 10px;
+}
+
+.homebuttom {
+    color: rgb(255, 153, 0);
+}
+
+.pjlist {
+    background-color:  rgb(13, 13, 13);
+    width: 100%;
+    padding-top: 50px; 
+    text-align: center;
+    padding-bottom: 25px;
+    margin: 0px auto;
+    border-top: 2px solid rgb(26, 26, 26);
+    border-bottom: 2px solid rgb(26, 26, 26);
+}
+
+h2 {
+    color: yellow;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+
+.project-pic {
+    width: 100%;
+    height: 180px;
+}
+
+figcaption {
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tributepage {
+    text-decoration: none;
+    color: #008080;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid yellow;
+    height: 235px;
+    width: 280px;
+    margin: 40px 100px;
+}
+
+figcaption {
+    padding-top: 3px; 
+    border-top: 2px solid rgb(0, 204, 0);
+
+}
+
+.show-all {
+    border: 2px solid  black;
+    justify-content: center;
+    display: flex;
+    height: 35px;
+    padding-bottom: 43px;
+    color: black;
+    box-sizing: border-box;
+    width: 150px;
+    margin: 40px auto;
+    background-color: yellow;
+    border-radius: 7px;
+    font-family: 'Coiny', cursive;
+    font-size: 30px;
+    box-shadow: 0px 0px 7px 1px rgb(0, 204, 0);
+               
+            
+}
+.show-all:hover {
+    background: -webkit-gradient (linear, left top, right top, from (#0ebeff), color-stop (#ffdd40), color-stop (#ae63e4), color-stop (#47cf73), color-stop (#0ebeff), color-stop (#ffdd40), color-stop (#ae63e4), to (#47cf73));
+    background: linear-gradient(90deg, #0ebeff, #ffdd40, #ae63e4, #47cf73, #0ebeff, #ffdd40, #ae63e4, #47cf73);
+   border-color: rgb(0, 204, 0);  
+   color: rgb(0, 204, 0);
+}
+
+.contacts {
+    padding: 200px 0px;
+    background-color: rgb(0, 26, 0);
+    border-bottom: 2px solid rgb(26, 26, 26);
+}
+
+.contacts p {
+    color: rgb(0, 204, 0);
+    text-align: center;
+    margin-top: 5px; 
+}
+
+
+.contact-links {
+    margin: 30px auto;
+    text-align: center;
+    max-width: 900px;
+}
+
+.contacts a {
+    display: inline-block;
+    font-weight: bold;
+    margin: 50px 50px;
+    font-size: 55px;
+    text-align: center;
+}
+
+.fa {
+    padding: 30px;
+    font-size: 10px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 50px 50px;
+    display: flex;
+
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin: 0px auto;
+    
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-google-plus {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-github {
+    background: green;
+    color: white;
+}
+
+.fa-wordpress {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-telegram {
+    background: rgb(0, 20, 26);
+    color: white;
+}
+
+
+
+.footer ul {
+    list-style: none;
+}
+
+#footer-wrapper {
+    color: green;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+}
+
+#footer-left {
+    float: left;
+    width: 33.33%;
+}
+
+#footer-left li {
+    display: inline-table;
+    margin: 5px 10px;
+}
+
+#footer-left p {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#footer-menu a {
+    color: green;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+#footer-center {
+    margin-top: 20px; 
+    float: left;
+    width: 33.33%;
+    text-align: center; 
+}
+
+#newletter {
+    color: green;
+}
+
+#footer-right {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-top: 64px;
+
+}
